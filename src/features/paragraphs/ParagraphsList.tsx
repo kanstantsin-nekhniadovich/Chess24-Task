@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const ParagraphList = (): JSX.Element => {
+export const ParagraphsList = (): JSX.Element => {
   return (
     <div>List</div>
   );

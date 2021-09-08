@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
 
-import { Home, Paragraph, NotFound } from './pages';
+import { Home, Paragraph, NotFound } from './app/components';
 import { ROUTES } from './constants';
 
 export const Routing = (): JSX.Element => (
