@@ -1,5 +1,6 @@
 export enum ROUTES {
   HOME = '/',
-  PARAGRAPH = '/paragraph/:id',
+  PARAGRAPH = '/paragraph/:index',
+  NOT_FOUND = 'not-found',
   ALL = '*'
 }
