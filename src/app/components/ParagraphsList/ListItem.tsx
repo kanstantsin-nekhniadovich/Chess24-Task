@@ -9,7 +9,9 @@ interface Props {
 }
 
 export const ListItem = ({ item, index }: Props): JSX.Element => {
+  const firstSentence = item.split('. ')[0];
+
   return (
-    <Link to={`/paragraph/${index}`} className={styles.item}>{item}</Link>
+    <Link to={`/paragraph/${index}`} className={styles.item}>{firstSentence}</Link>
   );
 };
