@@ -1,2 +1,2 @@
-export { ParagraphsList } from './ParagraphsList';
-export { actions, reducer as ParagraphsReducer } from './paragraphsSlice';
+export { Paragraphs } from './Paragraphs';
+export { reducer as ParagraphsReducer } from './slice';

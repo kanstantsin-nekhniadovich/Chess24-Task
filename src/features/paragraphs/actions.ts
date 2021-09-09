@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-import { fetchParagraphs } from './paragraphsApi';
+import { fetchParagraphs } from './api';
 
 export const fetchParagraphsAction = createAsyncThunk(
   'paragraphs/fetch',
