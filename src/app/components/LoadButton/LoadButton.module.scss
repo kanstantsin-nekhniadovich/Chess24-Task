@@ -1,0 +1,33 @@
+@import '../../../variables.scss';
+
+.button {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  outline: none;
+  padding: 0px 1.25rem;
+  background-color: $green;
+  cursor: pointer;
+  color: $whiteLilac;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out, border .2s ease-in-out;
+
+  &:focus {
+    border-color: $dodgerBlue;
+  }
+
+  &.disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  &:hover {
+    border: 1px solid $green;
+    background-color: $whiteLilac;
+    color: $green;
+  }
+}
